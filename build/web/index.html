@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>HTML FORM</title>
+    </head>
+    <body>
+        <h3>User Register</h3>
+        <div style="border:1px solid #D0D0D0;width:400px;padding:10px;">
+            <form method = "Get" action="formProcessing.jsp">
+                User Name: <input type="text" name="userName" value="">
+                <br>
+                Password : <input type="password" name="password" value="">
+
+                <hr>
+                First Name: <input type="text" name="firstName">
+                <br>
+                Last Name: <input type="text" name="lastName">
+                <br>
+                Gender: <input type="radio" name="gender" value ="M"> Male
+                <input type="radio" name="gender" value="F"> Female
+                <hr>
+                SoThich:
+                <br>
+                <input type="checkbox" name="like" value="hat">Hat
+                <br>
+                <input type="checkbox" name="like" value="ve">Ve
+                <br>
+                <input type="checkbox" name="likeo" value="mua">Mua
+                <br>
+                <input type="checkbox" name="like" value="bale">bale
+                <br>
+                <input type = "checkbox" name= "like" value="thethao">The thao
+                <hr>
+                Cân nặng:
+                <br>
+                <select name="cannang">
+                    <option>Dưới 50kg</option>
+                    <option>Từ 50 đến 70kg</option>
+                    <option>Trên 70kg</option>
+
+                </select>
+                <hr>
+                Selectmul:
+                <br>
+                <select multiple="multiple">
+                    <option>Danh sách 01</option>
+                    <option>Danh sách 02</option>
+                    <option>Danh sách 03</option>
+                    <option>Danh sách 04</option>
+                </select>
+                <hr>
+                File:
+                <br>
+                <input type="file" name="file" id="file" class="inputfile" />
+                <label for="file">Choose a file</label>
+                <hr>  
+                Dia chi:
+                <br> 
+                <textarea rows="3" cols="100" placeholder="Nhập địa chỉ" name="diachi"></textarea>
+                <hr>
+                <input type="submit" value="Submit">
+            </form>
+
+        </div>
+
+    </body>
+</html>
